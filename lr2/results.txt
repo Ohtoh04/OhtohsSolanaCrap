@@ -1,0 +1,49 @@
+##create mint:
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2$ npx ts-node src/create-mint-account.ts
+Mint Address: 721oDirsKMsVfaSwAo7Xd9yeBNWiqQ3tgzVrc33ZA54s
+
+Transaction Signature: 3uspJbUJNoTvsGXqjGLM5YXaWWzwcpcLJS99ctEuWMAs9Cmo5aK354DEkjGVKJQ3hpAFJKEHLrzqdFCMqBmk4mjp
+
+### for my wallet
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2/src$ npx ts-node create-mint-account.ts
+Mint Address: 47eiKtF4oTkbxDxanda19mDGt6x17v8zAmoVukdar6aH
+
+Transaction Signature: 5HZkEGCJPdEheCRi3hZTdFLcYuLiHsz7SM56rEuLUPwwL1EJx7GwbFiwKTfuaoppEmiQEyBBtwsBNFbTNGDRSUEY
+
+
+##create token account:
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2$ npx ts-node src/create-token-account.ts
+Mint Address: E6LyAEr1vBztwqfjfsUWhEX4pK21Sc3shwEThsxLDXJv
+Transaction Signature: 3icyNANpPWyLoiMGH6M4YQR1yZtkUEDTfHeEZd7jZKGHJonNaQoYKUE9G75QddmKoyonxSTa6cShv6iNW6AgeZ7
+Token Account Address: Cdyq2aCMLzP6HNpaq4N3kC6CmQ4bbSbw1LsFhVMoPp2o
+Transaction Signature: 5ZFKEbtDmeCvptzeA9uwDRzZAY3JuWqYnWnVbP2iEbznPTGXJcaGT5GVBT2rVRguLjPSj9krJa193NovmzoNJVEf
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2/src$ npx ts-node create-token-account.ts
+Using existing mint: 721oDirsKMsVfaSwAo7Xd9yeBNWiqQ3tgzVrc33ZA54s
+New token account: 3GcuDuV5w7HJQEbqqZ7BqbmLk23iJypcbX5yEMCQyuzX
+Transaction signature: 4JTtc6odnCr7Sr7ciVGE1yuRtLYHgKPzAgLtmcQTrJnNX76tXDunKfaepCkwhwwQRQ6iPhSzQxoegDZqtqELmDMT
+
+### for my wallet
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2/src$ npx ts-node create-token-account.ts
+Using existing mint: 47eiKtF4oTkbxDxanda19mDGt6x17v8zAmoVukdar6aH
+New token account: CgFE937AiYK1yidoceeVBUYgjZZcEm7rKpmm4PrrCBPg
+Transaction signature: viGQ39c7qNcpm6uMaTkrDudfShwojxS4DrcZMRMSwMT1Cqqnc8MdDeEBJGAn5ychpEymiizKphREPj3UZT4S7rx
+
+##mint token
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2$ npx ts-node src/mint-token.ts
+Mint Address: 7h6syvucw8gLdpT7zmbxxJAYNaf7GbC9PAX6EMhtapHi
+Associated Token Account Address:  HUEMaEV5XBbCsGkEtE6Xz1XAnQp5C7nymJh3U2A78QYk
+Successfully minted 1.0 tokens
+Transaction Signature: 2tb1Y6dVb65299g1Ye9TDCKpn81AQWDUWmBjfCEytFFvqDTaZC2vN2aZr7JPcc936JU5kZehih44XANDvebLp4qs
+
+
+ohtoh@ohtoh-Aspire-A315-24P:~/Documents/tofd/lr2/src$ npx ts-node mint-token.ts
+Using existing mint: 47eiKtF4oTkbxDxanda19mDGt6x17v8zAmoVukdar6aH
+Associated Token Account: 9YJHxwZNr6ALfy81HMgGZCCDMbNYjjRxSWERp6BGVKR9
+ATA creation signature: 7nRpeipcaeB42jW2dLB7ZhxjXmHbWwJ5w9yJy9HHLmLSib6FL1QqP1CJPb5P4ge4hPfW1tynSwR4tVurFunRErB
+Successfully minted 1.00 tokens
+Mint Transaction Signature: 22kZJzwAx9ANHdSdgTUvSpwTRudULbeTabxfXpUWr6SoufeQbH1qpvPcw1DQxkKchvwoJZN3Bn3NPfJmQy8crVQk

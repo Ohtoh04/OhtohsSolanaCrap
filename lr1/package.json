@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "fs": "^0.0.1-security"
+  },
+  "name": "lr1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
